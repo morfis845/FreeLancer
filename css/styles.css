@@ -10,7 +10,7 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
     /*hack para Box Model*/
-    scroll-snap-type: y mandatory;
+    /*scroll-snap-type: y proximity;*/
 }
 
 *,
@@ -144,13 +144,13 @@ h3 {
     color: var(--blanco);
 }
 
-.servicios, 
+/*.servicios, 
 .navegacion-principal,
 .formulario,
 .footer{
     scroll-snap-align: center;
     scroll-snap-stop: always;
-}
+}*/
 
 @media (min-width: 768px) {
     .servicios {
